@@ -1,0 +1,14 @@
+spring:
+  data.mongodb:
+    uri: mongodb://localhost:27017/pubnubDemo
+  main:
+    allow-circular-references: true
+
+pubnub:
+  sub.key: sub-c-20b66778-f903-11eb-bf4c-22908b043f7e
+  pub.key: pub-c-888b68c3-ebbf-442d-9842-2fcef0339814
+
+server:
+  port: 9001
+
+
